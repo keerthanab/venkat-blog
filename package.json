@@ -1,0 +1,15 @@
+{
+    "name": "venkat-blog",
+    "description": "design a minimal blog",
+    "version": "0.1.0",
+    "author": "keerthana",
+    "private": true,
+
+    "dependencies": {
+      "express": ">= 0.0.1",
+      "jade": ">= 0.0.1"
+	  "mongojs">="*"
+  	},
+  	
+    "devDependencies": {}
+}
