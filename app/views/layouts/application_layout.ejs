@@ -1,0 +1,93 @@
+<!DOCTYPE html>   
+<html lang="en">   
+<head>   
+<meta charset="utf-8">   
+<title><%= title %></title>   
+<meta name="description" content="Bla bla bla">  
+<link href="../twitter-bootstrap/twitter-bootstrap-v2/docs/assets/css/bootstrap.css" rel="stylesheet">
+<link href="../twitter-bootstrap/twitter-bootstrap-v2/docs/assets/css/bootstrap-responsive.css" rel="stylesheet">  
+
+<script src="../twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/jquery.js"></script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+
+<style type="text/css">
+
+  body { padding-top: 40px; } 
+
+  img.bg {
+    /* Set rules to fill background */
+    min-height: 768px;
+    min-width: 1024px;
+    max-width: 30%;
+    max-height: 100%;
+  
+  /* Set up proportionate scaling */
+  height:auto;
+  top:0%;
+  left:-2%;
+    
+  /* Set up positioning */
+  position: absolute;
+  z-index: 0;
+
+
+}
+
+img.mybg {
+    /* Set rules to fill background */
+    min-height: 250px;
+    min-width: 250px;
+    max-width: 20%;
+    max-height: 25%;
+  
+  /* Set up proportionate scaling */
+  height:20%;
+  top:20%;
+
+  
+  /* Set up positioning */
+  z-index: -2;
+
+
+}
+
+img.addButton {
+  z-index: -1;
+}
+
+.span3 h1 {
+  font-family: Auburn;
+  font-size: 75px;
+    }
+
+</style>
+
+</head>  
+<body>
+
+
+
+<div class="container-fluid">  
+  <div class="row-fluid"> 
+    <div class="span9" style="float:left;">  
+      <!--Sidebar content--> 
+      <a class="film-roll" href="get-articles"> <img src="/images/blog-roll.png" class="bg" alt=""> </img> </a> 
+    </div>  
+
+    <div class="span3" style="float:right;">  
+      <h1>Life rolls...</h1>
+        <img src="/images/venkat.png" class="mybg" alt=""> </img> 
+        <a class="add-roll" href="post-articles"><img src="/images/addButton.png" class="addButton" alt=""> </img> </a> 
+    </div>  
+  </div>  
+</div>  
+       
+
+
+<%- body %>
+ 
+
+
+</body>  
+</html>   
+           

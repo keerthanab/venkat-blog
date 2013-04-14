@@ -1,0 +1,12 @@
+module.exports = {
+
+"development": {
+ "SINGLY_APP_ID": "a82983af9dda46d48324fa931ad13cd8"
+ ,"SINGLY_APP_SECRET": "d46d32ebea6cdc42eecdd9e53bb6501e"
+ ,"AMAZON_ID":"AKIAIANJ4E5XFAUZ5XLQ"
+ ,"AMAZON_SECRET": "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"
+ , "AMAZON_REGION":"us-east-1"
+ , "AMAZON_BUCKET":"chiti"
+}
+
+}
