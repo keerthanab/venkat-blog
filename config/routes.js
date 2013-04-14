@@ -17,6 +17,6 @@ exports.routes = function (map) {
 	//map.get('/venkat', 'admin/posts#profile'); 
 	map.root('home#landing');
     map.get('/get-articles','articles#archieve');
-    map.get('/post-articles','posts#submit');
-    map.post('/post-articles','posts#done');
+    map.get('/post-articles','posts#add-new-post');
+    map.post('/post-articles','posts#submit-new-post');
 };
